@@ -1,0 +1,9 @@
+nombre,nota
+Ana López,5.5
+Luis Pérez,3.5
+María Soto,6.0
+Diego Vera,2.0
+Camila Fuentes,6.5
+Felipe Cóndor,4.0
+Tomás Ríos,5.0
+Valentina Díaz,7.0
