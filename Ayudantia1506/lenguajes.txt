@@ -1,5 +1,0 @@
-Python,85
-JavaScript,78
-Java,65
-C++,50
-Ruby,25
