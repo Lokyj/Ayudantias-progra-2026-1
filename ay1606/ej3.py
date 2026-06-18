@@ -5,7 +5,7 @@ alumnos = []
 notas = []
 colores = []
 
-with open("alumnos.csv", encoding = "utf-8") as f:
+with open("alumnos.csv",mode="r" ,encoding = "utf-8") as f:
     lector = csv.DictReader(f)
     for linea in lector:
         alumnos.append(linea["nombre"])

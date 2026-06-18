@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 juegos = []
 rating = []
 
-with open("videojuegos.csv", encoding="utf-8") as f:
+with open("videojuegos.csv",mode="r", encoding="utf-8") as f:
     lector = csv.reader(f,delimiter=";")
     headears = next(lector)
     for linea in lector:

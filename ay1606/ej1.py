@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 dias = []
 ventas= []
-with open("ventas_diarias.txt", encoding= "utf-8") as f:
+with open("ventas_diarias.txt",mode="r" ,encoding= "utf-8") as f:
     for i,linea in enumerate(f):
         linea = linea.strip()
         dias.append(i+1)
